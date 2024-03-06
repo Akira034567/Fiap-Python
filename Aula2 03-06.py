@@ -1,5 +1,3 @@
-print("Hello World!")
-
 #Exercícios:
 
 Nome = "Akira"
