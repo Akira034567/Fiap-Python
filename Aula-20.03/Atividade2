@@ -1,0 +1,39 @@
+#EXERCÍCIO 2.1:
+
+a = float(input("Digite um número: "))
+b = float(input("Digite mais um número: "))
+c = float(input("Digite outro número: "))
+
+if a == b == c:
+    print('Todos são iguais.')
+else:
+    maior = max(a, b, c)
+    menor = min(a, b, c)
+
+    print("O menor número é o", menor)
+    print("O maior número é o", maior)
+
+"""
+EXERCÍCIO 2:
+
+a = float(input("Digite um número: "))
+b = float(input("Digite mais um número: "))
+c = float(input("Digite outro número: "))
+
+if a > b:
+    maior = a
+else:
+    maior = b
+if c > maior:
+    maior = c
+    
+if a < b:
+    menor = a
+else:
+    menor = b
+if c < menor:
+    menor = c
+    
+print("O menor número é o", menor)
+print("O maior número é o", maior)
+"""
