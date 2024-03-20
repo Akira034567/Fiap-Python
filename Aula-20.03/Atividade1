@@ -1,0 +1,7 @@
+#EXERCÍCIO 1:
+
+a = float(input("Digite a velocidade do seu carro em km/h: "))
+
+if a > 80.0:
+    multa = 5 * (a-80)
+    print("Você foi multado, devendo pagar R$", multa)
